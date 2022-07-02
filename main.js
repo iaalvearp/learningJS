@@ -50,11 +50,21 @@ console.group(`Círculos`);
 let radioCirculo = 4;
 const PI = 3.1416;
 
-const diametro = radio => console.log(`Si radio del círculo es de ${radio}, el diametro es de ${radio * 2}.`);
+const diametro = () => {
+    const radioCirculo = parseFloat(document.getElementById('radioCirculo'));
+    alert(`Si radio del círculo es de ${radioCirculo}, el diametro es de ${radioCirculo * 2}.`);
+};
 
-const circunferencia = radio => console.log(`Si el radio del círculo es de ${radio}, entonces la circunferencia es de ${(radio * 2) * PI}.`);
+const circunferencia = () => {
+    const radioCirculo = parseFloat(document.getElementById('radioCirculo'));
+    const diametro = radioCirculo * 2;
+    alert(`Si el radio del círculo es de ${radioCirculo}, entonces la circunferencia es de ${diametro * PI}.`);
+};
 
-const areaCirculo = radio => console.log(`Si el radio del círculo es de ${radio}, entonces el area es de ${(radio ** 2) * PI}.`);
+const areaCirculo = () => {
+    const radioCirculo = parseFloat(document.getElementById('radioCirculo'));
+    alert(`Si el radio del círculo es de ${radioCirculo}, entonces el area es de ${(radioCirculo ** 2) * PI}.`);
+};
 
 console.groupEnd();
 
