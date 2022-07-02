@@ -11,3 +11,5 @@ Here is my process to learn JS step by step.
 - Crear funciones
 
 - Integrar JS al documento HTML
+
+##

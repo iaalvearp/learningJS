@@ -7,7 +7,36 @@
     <title>Learning Js</title>
 </head>
 <body id="body">
+    <header>
     <h1 id="title">Figuras Geométricas</h1>
+    <p>Este es el primer taller de JavaScript.</p>
+    </header>
+
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado:</h2>
+        <form action="" method="post">
+            <label for="ladoCuadrado">Escribe cuanto mide un lado del cuadrado:</label>
+            <input type="number" name="ladoCuadrado" id="ladoCuadrado" class="ladoCuadrado">
+            <button type="button" id="btnPerimetroCuadrado" onclick="perimetroCuadrado()">Calcule el perimetro</button>
+            <button type="button" id="btnAreaCuadrado" onclick="areaCuadrado()">Calcule el area</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el area y perimetro de un Triangulo:</h2>
+        <form action="" method="post">
+            <label for="ladoTriangulo">Escribe cuanto mide un lado del Triangulo:</label>
+            <input type="number" name="ladoTriangulo1" id="ladoTriangulo1" class="ladoTriangulo1">
+            <label for="ladoTriangulo">Escribe cuanto mide un lado del Triangulo:</label>
+            <input type="number" name="ladoTriangulo2" id="ladoTriangulo2" class="ladoTriangulo2">
+            <label for="ladoTriangulo">Escribe cuanto mide la base del Triangulo:</label>
+            <input type="number" name="baseTriangulo" id="baseTriangulo" class="baseTriangulo">
+            <label for="alturaTriangulo">Escribe la altura del Triangulo:</label>
+            <input type="number" name="alturaTriangulo" id="alturaTriangulo" class="alturaTriangulo">
+            <button type="button" id="btnPerimetroTriangulo" onclick="perimetroTriangulo()">Calcule el perimetro</button>
+            <button type="button" id="btnAreaTriangulo" onclick="areaTriangulo()">Calcule el area</button>
+        </form>
+    </section>
 
 
     <script src="main.js"></script>
