@@ -1,10 +1,15 @@
+const btn = document.getElementById('calcular');
 
-const precioConDescuento = (precio, descuento) => {
-    precio = document.getElementById('precio').value;
-    descuento = document.getElementById('descuento').value;
+const precioConDescuento = () => {
+    const precio = parseFloat(document.getElementById('precio').value);
+    const descuento = parseFloat(document.getElementById('descuento').value);
 
-    const total = precio * (descuento / 100);
-    return total;
+    const subTotal = precio * (descuento / 100);
+    const total = precio - subTotal;
+
+    const msj = `El precio con el descuento es $${total}`;
+    alert(msj);
 }
 
-const btn = document.getElementById('calcular').addEventListener('click', precioConDescuento);
+
+btn.addEventListener('click', precioConDescuento);
