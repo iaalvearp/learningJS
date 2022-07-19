@@ -12,4 +12,12 @@ Here is my process to learn JS step by step.
 
 - Integrar JS al documento HTML
 
-##
+## Taller #2: Porcentajes y descuentos.
+
+- Definir las fórmulas que se necesitan
+
+- Implementar las fórmulas a JS
+
+- Crear funciones
+
+- Integrar JS al documento HTML
