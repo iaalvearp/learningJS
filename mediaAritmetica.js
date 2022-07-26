@@ -1,3 +1,12 @@
+//Funcion para obtener el promedio usando reduce()
+/*const promedio = (lista) => {
+    let sum = lista.reduce((acc, next) => acc += next);
+     let res = sum / lista.length;
+     return res;
+   }; */
+
+
+
 const addInput = document.getElementById('agregarInput');
 const removeInput = document.getElementById('removerInput');
 const InputsContainer = document.getElementById('cantidades');
